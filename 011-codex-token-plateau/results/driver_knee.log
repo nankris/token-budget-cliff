@@ -1,0 +1,8 @@
+start 1791987204 jobs=2 P=1
+{"cond": "budget18000", "task": "SUITE14", "rep": 1, "passed": 1, "subtests_passed": 14, "total_tokens": 73472, "cached_input_tokens": 53376, "est_cost_usd": 0.05686, "model_calls": 3, "compactions": 0, "wall_s": 268.0, "limit_error": "{\"type\": \"error\", \"message\": \"Reconnecting... 4/5 (exceeded retry limit, last status: 429 Too Many Requests)\"}", "retries": 3, "rl_primary_used_pct": 27.0}
+done 1791987473
+start 1791987559 jobs=2 P=1
+skip budget18000__SUITE14__r1: already in runs.csv
+errors: ['{"type": "error", "message": "shared rollout token budget exhausted"}', '{"type": "turn.failed", "error": {"message": "shared rollout token budget exhausted"}}']
+{"cond": "budget18000", "task": "SUITE14", "rep": 2, "passed": 1, "subtests_passed": 14, "total_tokens": 73716, "cached_input_tokens": 51456, "est_cost_usd": 0.05966, "model_calls": 3, "compactions": 0, "wall_s": 77.3, "limit_error": "", "retries": 0, "rl_primary_used_pct": 31.0}
+done 1791987638
